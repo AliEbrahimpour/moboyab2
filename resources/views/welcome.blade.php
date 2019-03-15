@@ -22,25 +22,25 @@
 
 </head>
 
-<body style="direction:rtl">
+<body >
 <!-- Preloader Start -->
 <div id="preloader">
     <div class="colorlib-load"></div>
 </div>
 
 <!-- ***** Header Area Start ***** -->
-<header class="header_area animated">
+<header   class="header_area animated">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div style="direction:rtl" class="row align-items-center">
             <!-- Menu Area Start -->
             <div class="col-12 col-lg-10">
-                <div class="menu_area">
-                    <nav class="navbar navbar-expand-lg navbar-light">
+                <div  class="menu_area">
+                    <nav  class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
                         <a class="navbar-brand" href="#">Ca.</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <!-- Menu Area -->
-                        <div class="collapse navbar-collapse" id="ca-navbar">
+                        <div  class="collapse navbar-collapse" id="ca-navbar">
                             <ul class="navbar-nav ml-auto" id="nav">
                                 <li class="nav-item active"><a class="nav-link" href="#home">خانه</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#about">درباره ما</a></li>
@@ -52,7 +52,7 @@
                                 <li class="nav-item"><a class="nav-link" href="#contact">ارتباط با ما</a></li>
                             </ul>
                             <div class="sing-up-button d-lg-none">
-                                <a href="#">Sign Up Free</a>
+                                <a href="#">عضویت رایگان</a>
                             </div>
                         </div>
                     </nav>
@@ -61,7 +61,7 @@
             <!-- Signup btn -->
             <div class="col-12 col-lg-2">
                 <div class="sing-up-button d-none d-lg-block">
-                    <a href="#">Sign Up Free</a>
+                    <a href="#">عضویت رایگان</a>
                 </div>
             </div>
         </div>
@@ -75,15 +75,15 @@
         <div class="row h-100 align-items-center">
             <div class="col-12 col-md">
                 <div class="wellcome-heading">
-                    <h2>Colorlib app</h2>
-                    <h3>C</h3>
-                    <p>Everything You Need. To Start Selling Online Beautifully</p>
+                    <h2>موبویاب</h2>
+                    <h3>M</h3>
+                    <p>دسترسی آسان به گوشی گمشده</p>
                 </div>
                 <div class="get-start-area">
                     <!-- Form Start -->
                     <form action="#" method="post" class="form-inline">
-                        <input type="email" class="form-control email" placeholder="name@company.com">
-                        <input type="submit" class="submit" value="Get Started">
+                        <input type="email" class="form-control email" placeholder="ایمیل خود را وارد کنید">
+                        <input type="submit" class="submit" value="ارسال">
                     </form>
                     <!-- Form End -->
                 </div>
@@ -104,7 +104,7 @@
             <div class="col-12">
                 <!-- Section Heading Area -->
                 <div class="section-heading text-center">
-                    <h2>Why Is It Special</h2>
+                    <h2>چرا ما را انتخاب کنید</h2>
                     <div class="line-shape"></div>
                 </div>
             </div>
@@ -117,8 +117,8 @@
                     <div class="single-icon">
                         <i class="ti-mobile" aria-hidden="true"></i>
                     </div>
-                    <h4>Easy to use</h4>
-                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    <h4>دسترسی آسان</h4>
+                    <p>شما می توانید به راحتی با متصل شدن با اینترنت در هرجا در رایانه شخصی خودتون یا موبایل تون از طریق اپلیکیشن یا سایت به ما متصل بشین</p>
                 </div>
             </div>
             <!-- Single Special Area -->
@@ -127,8 +127,8 @@
                     <div class="single-icon">
                         <i class="ti-ruler-pencil" aria-hidden="true"></i>
                     </div>
-                    <h4>Powerful Design</h4>
-                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    <h4>طراحی قدرتمند</h4>
+                    <p>ما سایت و اپلیکیشینی بسیار زیبا و کارآمد برای شما طراحی کردیم</p>
                 </div>
             </div>
             <!-- Single Special Area -->
@@ -137,8 +137,8 @@
                     <div class="single-icon">
                         <i class="ti-settings" aria-hidden="true"></i>
                     </div>
-                    <h4>Customizability</h4>
-                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    <h4>درآمدزایی</h4>
+                    <p>شما می تونید از طریق معرفی اپلیکیشن کسب درآمد کنید و از طریق کد خودتون اقدام به انتشار اپ کنین</p>
                 </div>
             </div>
         </div>
@@ -154,8 +154,8 @@
                 </div>
                 <div class="col-lg-6 col-xl-5 ml-xl-auto">
                     <div class="special_description_content">
-                        <h2>Our Best Propositions for You!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        <h2 style="direction: rtl">بهترین اپلیکیشن برای شما</h2>
+                        <p>شما می تونید از طریق لینک های زیر اقدام به دانلود اپلیکیشن کنین و در برنامه ما ثبت نام کنین</p>
                         <div class="app-download-area">
                             <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                                 <!-- Google Store Btn -->
@@ -185,38 +185,38 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                <div class="page-title text-center">
-                    <h5 class="title">Features</h5>
+                <div style="margin-left: 350px" class="page-title text-center">
+                    <h5 class="title">ویژگی های</h5>
                     <div class="space-10"></div>
-                    <h3>Pwoerful Features As Always</h3>
+                    <h3>قدرتمند و منحصربه فرد</h3>
                     <div class="space-60"></div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div style="direction: rtl" class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
                     <div class="box-icon">
                         <i class="lnr lnr-rocket"></i>
                     </div>
-                    <h4>Fast &amp; Powerful</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>سریع &amp; قدرتمند</h4>
+                    <p>شما می تونید در یک چشم به هم زدن اقدام به کنترل کنین</p>
                 </div>
                 <div class="space-60"></div>
                 <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
                     <div class="box-icon">
                         <i class="lnr lnr-paperclip"></i>
                     </div>
-                    <h4>Easily Editable</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>ویرایش آسان</h4>
+                    <p>شما می تونید در یک چشم به هم زدن اقدام به کنترل کنین</p>
                 </div>
                 <div class="space-60"></div>
                 <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
                     <div class="box-icon">
                         <i class="lnr lnr-cloud-download"></i>
                     </div>
-                    <h4>Cloud Storage</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>فضای ابری</h4>
+                    <p>شما می تونید در یک چشم به هم زدن اقدام به کنترل کنین</p>
                 </div>
                 <div class="space-60"></div>
             </div>
@@ -230,24 +230,24 @@
                     <div class="box-icon">
                         <i class="lnr lnr-clock"></i>
                     </div>
-                    <h4>Easy Notifications</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>آگاه بشین !</h4>
+                    <p>شما می تونید در یک چشم به هم زدن اقدام به کنترل کنین</p>
                 </div>
                 <div class="space-60"></div>
                 <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
                     <div class="box-icon">
                         <i class="lnr lnr-laptop-phone"></i>
                     </div>
-                    <h4>Fully Responsive</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>کاملا منعطف</h4>
+                    <p>شما می تونید در یک چشم به هم زدن اقدام به کنترل کنین</p>
                 </div>
                 <div class="space-60"></div>
                 <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
                     <div class="box-icon">
                         <i class="lnr lnr-cog"></i>
                     </div>
-                    <h4>Editable Layout</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>زیبایی ظاهری</h4>
+                    <p>شما می تونید در یک چشم به هم زدن اقدام به کنترل کنین</p>
                 </div>
                 <div class="space-60"></div>
             </div>
@@ -284,7 +284,7 @@
                     </div>
                     <div class="cool-facts-content">
                         <i class="ion-arrow-down-a"></i>
-                        <p>APP <br> DOWNLOADS</p>
+                        <p>تعداد <br> دانلود</p>
                     </div>
                 </div>
             </div>
@@ -296,7 +296,7 @@
                     </div>
                     <div class="cool-facts-content">
                         <i class="ion-happy-outline"></i>
-                        <p>Happy <br> Clients</p>
+                        <p>رضایت <br> کاربران</p>
                     </div>
                 </div>
             </div>
@@ -308,7 +308,7 @@
                     </div>
                     <div class="cool-facts-content">
                         <i class="ion-person"></i>
-                        <p>ACTIVE <br>ACCOUNTS</p>
+                        <p>اکانت <br>فعال</p>
                     </div>
                 </div>
             </div>
@@ -320,7 +320,7 @@
                     </div>
                     <div class="cool-facts-content">
                         <i class="ion-ios-star-outline"></i>
-                        <p>TOTAL <br>APP RATES</p>
+                        <p>رتبه <br>اپلیکیشن</p>
                     </div>
                 </div>
             </div>
@@ -336,7 +336,7 @@
             <div class="col-12 text-center">
                 <!-- Heading Text  -->
                 <div class="section-heading">
-                    <h2>App Screenshots</h2>
+                    <h2>محیط برنامه</h2>
                     <div class="line-shape"></div>
                 </div>
             </div>
@@ -379,7 +379,7 @@
             <div class="col-12">
                 <!-- Heading Text  -->
                 <div class="section-heading text-center">
-                    <h2>Pricing Plan</h2>
+                    <h2>پلن های برنامه</h2>
                     <div class="line-shape"></div>
                 </div>
             </div>
@@ -391,22 +391,22 @@
                 <div class="single-price-plan text-center">
                     <!-- Package Text  -->
                     <div class="package-plan">
-                        <h5>Starter Plan</h5>
+                        <h5>پلن های برنامه</h5>
                         <div class="ca-price d-flex justify-content-center">
-                            <span>$</span>
-                            <h4>29</h4>
+                            <span>تومان</span>
+                            <h4>29000</h4>
                         </div>
                     </div>
                     <div class="package-description">
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>
+                        <p>ماهیانه</p>
+                        <p>اپدیت نامحدود</p>
+                        <p>دسترسی رایگان</p>
+                        <p>پیشتیبانی کامل</p>
+                        <p>تک کاربره</p>
                     </div>
                     <!-- Plan Button  -->
                     <div class="plan-button">
-                        <a href="#">Select Plan</a>
+                        <a href="#">انتخاب پنل</a>
                     </div>
                 </div>
             </div>
@@ -415,22 +415,22 @@
                 <div class="single-price-plan text-center">
                     <!-- Package Text  -->
                     <div class="package-plan">
-                        <h5>Basic Plan</h5>
+                        <h5>پلن های برنامه</h5>
                         <div class="ca-price d-flex justify-content-center">
-                            <span>$</span>
-                            <h4>49</h4>
+                            <span>تومان</span>
+                            <h4>29000</h4>
                         </div>
                     </div>
                     <div class="package-description">
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>
+                        <p>ماهیانه</p>
+                        <p>اپدیت نامحدود</p>
+                        <p>دسترسی رایگان</p>
+                        <p>پیشتیبانی کامل</p>
+                        <p>تک کاربره</p>
                     </div>
                     <!-- Plan Button  -->
                     <div class="plan-button">
-                        <a href="#">Select Plan</a>
+                        <a href="#">انتخاب پنل</a>
                     </div>
                 </div>
             </div>
@@ -439,22 +439,22 @@
                 <div class="single-price-plan active text-center">
                     <!-- Package Text  -->
                     <div class="package-plan">
-                        <h5>Advenced Plan</h5>
+                        <h5>پلن های برنامه</h5>
                         <div class="ca-price d-flex justify-content-center">
-                            <span>$</span>
-                            <h4>69</h4>
+                            <span>تومان</span>
+                            <h4>29000</h4>
                         </div>
                     </div>
                     <div class="package-description">
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>
+                        <p>ماهیانه</p>
+                        <p>اپدیت نامحدود</p>
+                        <p>دسترسی رایگان</p>
+                        <p>پیشتیبانی کامل</p>
+                        <p>تک کاربره</p>
                     </div>
                     <!-- Plan Button  -->
                     <div class="plan-button">
-                        <a href="#">Select Plan</a>
+                        <a href="#">انتخاب پنل</a>
                     </div>
                 </div>
             </div>
@@ -463,25 +463,26 @@
                 <div class="single-price-plan text-center">
                     <!-- Package Text  -->
                     <div class="package-plan">
-                        <h5>Community Plan</h5>
+                        <h5>پلن های برنامه</h5>
                         <div class="ca-price d-flex justify-content-center">
-                            <span>$</span>
-                            <h4>99</h4>
+                            <span>تومان</span>
+                            <h4>29000</h4>
                         </div>
                     </div>
                     <div class="package-description">
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>
+                        <p>ماهیانه</p>
+                        <p>اپدیت نامحدود</p>
+                        <p>دسترسی رایگان</p>
+                        <p>پیشتیبانی کامل</p>
+                        <p>تک کاربره</p>
                     </div>
                     <!-- Plan Button  -->
                     <div class="plan-button">
-                        <a href="#">Select Plan</a>
+                        <a href="#">انتخاب پنل</a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -499,7 +500,7 @@
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </div>
                         <div class="client-description text-center">
-                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            <p>ما بهترین ها را برای شما در نظر داریم</p>
                         </div>
                         <div class="star-icon text-center">
                             <i class="ion-ios-star"></i>
@@ -603,13 +604,13 @@
         <div class="row align-items-center">
             <div class="col-md-8">
                 <div class="membership-description">
-                    <h2>Join our Monthly Membership</h2>
-                    <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                    <h2>به ما بپیوندید</h2>
+                    <p>به راحتی گوشی خود را پیدا کنید</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                    <a href="#">Get Started</a>
+                    <a href="#">شروع کنید</a>
                 </div>
             </div>
         </div>
@@ -624,7 +625,7 @@
             <div class="col-12 text-center">
                 <!-- Heading Text  -->
                 <div class="section-heading">
-                    <h2>Our Team</h2>
+                    <h2>تیم ما</h2>
                     <div class="line-shape"></div>
                 </div>
             </div>
@@ -718,20 +719,20 @@
             <div class="col-md-6">
                 <!-- Heading Text  -->
                 <div class="section-heading">
-                    <h2>Get in touch with us!</h2>
+                    <h2>با ما در ارتباط باشید</h2>
                     <div class="line-shape"></div>
                 </div>
                 <div class="footer-text">
-                    <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                    <p>پیام خود را برای ما بگذارید</p>
                 </div>
                 <div class="address-text">
-                    <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                    <p><span>آدرس:</span> ایران ، مشهد</p>
                 </div>
                 <div class="phone-text">
-                    <p><span>Phone:</span> +11-225-888-888-66</p>
+                    <p><span>تلفن تماس:</span> +11-225-888-888-66</p>
                 </div>
                 <div class="email-text">
-                    <p><span>Email:</span> info.deercreative@gmail.com</p>
+                    <p><span>ایمیل:</span> info.deercreative@gmail.com</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -790,17 +791,17 @@
     <div class="footer-menu">
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">مقررات</a></li>
+                <li><a href="#">تیم سازنده</a></li>
+                <li><a href="#">ارتباط با ما</a></li>
             </ul>
         </nav>
     </div>
     <!-- Foooter Text-->
     <div class="copyright-text">
         <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-        <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        <p>ساخته شده توسط <a href="https://123ali.ir" target="_blank">علی ابراهیم پور</a></p>
     </div>
 </footer>
 <!-- ***** Footer Area Start ***** -->
