@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\api\v1;
 
+use Illuminate\Support\Facades\Password;
 use App\Action;
 use App\Blog;
 use App\Event;
@@ -14,13 +15,15 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\User as UserResource;
 use App\Http\Resources\Blog as BlogResource;
+use App\Http\Resources\UserWallet as UserWalletResource;
 use App\Http\Resources\Ticket as TicketResource;
 use Illuminate\Support\Facades\DB;
 
 class ApiController extends Controller
 {
 
-    private $verifysms;
+    private $verifysms =0;
+
     public function login(Request $request)
     {
         $validData = $this->validate($request, [
@@ -66,7 +69,6 @@ class ApiController extends Controller
         return new UserResource($user , $token);
     }
 
-
     private function createToken()
     {
         auth()->user()->tokens()->delete();
@@ -77,6 +79,14 @@ class ApiController extends Controller
         return $this->verifysms;
     }
 
+    public function fpassword(Request $request)
+    {
+        $validData = $request->validate(['email' => 'required|email']);
+        return new UserResource(User::findEmail($validData['email']));
+
+    }
+
+    //---------------------------------------------------------------------------------------------
     //Admin Panel
     public function adminpanel(){
         return 'adminpanel';
@@ -92,24 +102,28 @@ class ApiController extends Controller
             $query->select('user_id')->from('user_wallets');
         })->paginate(5);
     }
+
     //user with code
     public function uwc(){
         return DB::table('user_wallets')
             ->leftJoin('users', 'user_id', '=', 'users.id')
             ->paginate(10);
     }
+
     //best user
     public function bestu(){
         return DB::table('user_wallets')
             ->select(DB::raw('caller_id , count(*) as user_count'))
             ->groupBy('caller_id')->orderByDesc('user_count')->get();
     }
+
     //count use of code
     public function usec(){
         return json_decode(DB::table('events')
             ->select(DB::raw('action_id , count(*) as action_count'))
             ->groupBy('action_id')->orderByDesc('action_count')->get());
     }
+
     public function aticket(){
         return Ticket::paginate(5);
     }
@@ -132,10 +146,8 @@ class ApiController extends Controller
             'images_two' => 'required|string|min:10',
             'images_three' => 'required',
             'news_status' => 'required',
-            'user_id' => 'required|exists:users',
-
+            'user_id' => 'required|exists:users'
         ]);
-
         $blog =Blog::create([
             'title' => $validData['title'],
             'description' => $validData['description'],
@@ -146,17 +158,17 @@ class ApiController extends Controller
             'news_status' => $validData['news_status'],
             'user_id' => \auth()->user()->id,
         ]);
-
         return new BlogResource($blog);
+    }
 
-
+    public function allactivety(User $user){
+        return Event::whereUserId($user->id)->get();
     }
 
 
 
 
-
-
+    //---------------------------------------------------------------------------------------------
     //User Panel
     public function userpanel(){
         return 'userpanel';
@@ -166,12 +178,12 @@ class ApiController extends Controller
         return Action::all();
     }
 
-    public function income(UserWallet $userWallet){
-         $waiting = $userWallet->incomefilter('waiting','deposit')->whereCallerId(\auth()->user()->id)->json();
-         $accept = $userWallet->incomefilter('accept','deposit')->whereCallerId(\auth()->user()->id)->json();
+    public function income(UserWallet $userWallet,User $user){
+         $waiting = $userWallet->incomefilter('waiting','deposit')->whereCallerId($user->id);
+         $accept = $userWallet->incomefilter('accept','deposit')->whereCallerId($user->id);
         return [
-            'waiting' => $waiting ,
-            'accept' => $accept ,
+            new UserWalletResource($waiting) ,
+            new UserWalletResource($accept)
         ];
     }
     public function activety(){

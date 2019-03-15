@@ -1,470 +1,824 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
+
 <head>
-    <meta charset="utf-8">
-    <title>موبایل آباد</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Title -->
+    <title>saeed</title>
 
-    <!-- Google Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">-->
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- Bootstrap CSS File -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/welcome/style.css" rel="stylesheet">
+    <!-- Core Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-      Theme Name: Avilon
-      Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-      Author: BootstrapMade.com
-      License: https://bootstrapmade.com/license/
-    ======================================================= -->
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
 </head>
 
-<body>
-
-<!--==========================
-  Header
-============================-->
-<header id="header">
-    <div class="container">
-
-        <div id="logo" class="pull-left">
-            <a href="#intro"><img src="img/logo_32.png" alt="" title=""></a>
-        </div>
-
-        <nav id="nav-menu-container">
-            <ul class="nav-menu">
-                <li class="menu-active" ><a href="#intro">خانه</a></li>
-                <li><a href="#more-features">امکانات</a></li>.
-                <li><a href="#team">تیم برنامه نویسی</a></li>
-
-                <li><a href="#contact">تماس با ما</a></li>
-            </ul>
-        </nav><!-- #nav-menu-container -->
-    </div>
-</header><!-- #header -->
-
-<!--==========================
-  Intro Section
-============================-->
-<section id="intro">
-
-    <div class="intro-text">
-        <h2>دسترسی سریع با قیمت مناسب</h2>
-        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-        <!--<a href="https://www.aparat.com/smohe1991" class="btn-get-started scrollto">ویدئو آموزشی</a>-->
-        <a href="http://www.aparat.com/smohe1991" target="_blank" class="btn btn-danger btn-raised btn-lg">
-            ویدئو آموزشی
-            <i class="fa fa-play"></i>
-            <div class="ripple-container"></div></a>
-    </div>
-
-    <div class="product-screens">
-
-        <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-            <img src="img/iphonex.png" alt="">
-        </div>
-
-
-
-    </div>
-
-</section><!-- #intro -->
-
-<main id="main">
-
-
-
-
-
-
-
-
-    <!--==========================
-  More Features Section
-============================-->
-    <section id="more-features" class="section-bg">
-        <div class="container">
-
-            <div class="section-header">
-                <h3 class="section-title">امکانات موبایل آباد</h3>
-                <span class="section-divider"></span>
-                <p  class="section-description">قابلیت های که اپلیکیشن موبویاب برای کاربران خود آماده کرده است</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="icon ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-
-                        <div class="icon"><i class="ico ion-location"></i></div>
-                        <h4 class="title"><a href="">دسترسی سریع</a></h4>
-                        <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section><!-- #more-features -->
-
-    <!--==========================
-          Call To Action Section
-        ============================-->
-    <section id="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 text-center text-lg-left">
-                    <h3 class="cta-title">میزان درآمد</h3>
-
-                    <p class="cta-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">ورود</a>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- #call-to-action -->
-
-
-    <!-- ***** Cool Facts Area Start ***** -->
-    <section class="cool_facts_area clearfix">
-        <div class="container">
-
-            <div class="row">
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-area">
-                            <h3><span class="counter">90</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
-                            <p>میزان گوشی های<br> یافت شده</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="counter-area">
-                            <h3><span class="counter">120</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-happy-outline"></i>
-                            <p>میانگین<br>درآمد کاربران</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="counter-area">
-                            <h3><span class="counter">40</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-person"></i>
-                            <p>میزان اعضای فعال</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="counter-area">
-                            <h3><span class="counter">10</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
-                            <p>میزان تیکت های  <br>پاسخ داده شده</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Cool Facts Area End ***** -->
-
-
-
-
-
-
-
-    <!--==========================
-      Our Team Section
-    ============================-->
-    <section id="team" class="section-bg">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-title">تیم برنامه نویسی</h3>
-                <span class="section-divider"></span>
-                <p class="section-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
-            </div>
-            <div class="row wow fadeInUp">
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/default.png" class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="100ms" alt=""></div>
-                        <h4>مهندس علی احمدی</h4>
-                        <span>مدیر پروژه</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-instagram"></i></a>
-                            <a href=""><i class="fa fa-telegram"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/default.png" class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="260ms" alt=""></div>
-                        <h4>مهندس علی احمدی</h4>
-                        <span>مدیر پروژه</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-instagram"></i></a>
-                            <a href=""><i class="fa fa-telegram"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/default.png" class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="400ms" alt=""></div>
-                        <h4>مهندس علی احمدی</h4>
-                        <span>برنامه نویس ارشد</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-instagram"></i></a>
-                            <a href=""><i class="fa fa-telegram"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/default.png" class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="560ms" alt=""></div>
-                        <h4>مهندس علی احمدی</h4>
-                        <span>برنامه نویس</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-instagram"></i></a>
-                            <a href=""><i class="fa fa-telegram"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- #team -->
-
-
-    <section id="contact">
-        <div class="container">
-            <div class="row wow fadeInUp">
-
-                <div class="col-lg-4 col-md-4">
-                    <div class="contact-about">
-                        <h3>MOBILE ABAD</h3>
-                        <p>دسترسی سریع با قیمت مناسب</p>
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-                        <div class="social-links">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="info">
-                        <div>
-                            <i class="ion-ios-location-outline"></i>
-                            <p>IRAN</p>
-                        </div>
-
-                        <div>
-                            <i class="ion-ios-email-outline"></i>
-                            <p>info@mobileabad.ir</p>
-                        </div>
-
-                        <div>
-                            <i class="ion-ios-telephone-outline"></i>
-                            <p>09156656154</p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-8">
-                    <div class="form">
-                        <div id="sendmessage">پیام شما فرستاده شد.ممنون!</div>
-                        <div id="errormessage"></div>
-                        <form action="" method="post" role="form" class="contactForm">
-                            <div class="form-row">
-                                <div class="form-group col-lg-6">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="نام و نام خانوادگی" data-rule="minlen:4" data-msg="لطفا حداقل چهار کاراکتر وارد کنید" />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="ایمیل" data-rule="email" data-msg="لطفا ایمیل خود را وارد کنید" />
-                                    <div class="validation"></div>
-                                </div>
+<body style="direction:rtl">
+<!-- Preloader Start -->
+<div id="preloader">
+    <div class="colorlib-load"></div>
+</div>
+
+<!-- ***** Header Area Start ***** -->
+<header class="header_area animated">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <!-- Menu Area Start -->
+            <div class="col-12 col-lg-10">
+                <div class="menu_area">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="#">Ca.</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <!-- Menu Area -->
+                        <div class="collapse navbar-collapse" id="ca-navbar">
+                            <ul class="navbar-nav ml-auto" id="nav">
+                                <li class="nav-item active"><a class="nav-link" href="#home">خانه</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about">درباره ما</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#features">ویژگی ها</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#screenshot">دمو</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#pricing">قیمت</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#testimonials">تست</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#team">تیم سازنده</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact">ارتباط با ما</a></li>
+                            </ul>
+                            <div class="sing-up-button d-lg-none">
+                                <a href="#">Sign Up Free</a>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="موضوع" data-rule="minlen:4" data-msg="حداقل 8 کاراکتر برای موضوع به کار ببرید" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="متن مورد نظر خود را وارد کنید" placeholder="پیام شما"></textarea>
-                                <div class="validation"></div>
-                            </div>
-                            <div class="text-center"><button type="submit" title="Send Message">ارسال پیام</button></div>
-                        </form>
-                    </div>
+                        </div>
+                    </nav>
                 </div>
-
             </div>
-
+            <!-- Signup btn -->
+            <div class="col-12 col-lg-2">
+                <div class="sing-up-button d-none d-lg-block">
+                    <a href="#">Sign Up Free</a>
+                </div>
+            </div>
         </div>
-    </section><!-- #contact -->
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
 
-</main>
+<!-- ***** Wellcome Area Start ***** -->
+<section class="wellcome_area clearfix" id="home">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 col-md">
+                <div class="wellcome-heading">
+                    <h2>Colorlib app</h2>
+                    <h3>C</h3>
+                    <p>Everything You Need. To Start Selling Online Beautifully</p>
+                </div>
+                <div class="get-start-area">
+                    <!-- Form Start -->
+                    <form action="#" method="post" class="form-inline">
+                        <input type="email" class="form-control email" placeholder="name@company.com">
+                        <input type="submit" class="submit" value="Get Started">
+                    </form>
+                    <!-- Form End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Welcome thumb -->
+    <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+        <img src="img/bg-img/welcome-img.png" alt="">
+    </div>
+</section>
+<!-- ***** Wellcome Area End ***** -->
 
-<!--==========================
-  Footer
-============================-->
-<footer id="footer">
+<!-- ***** Special Area Start ***** -->
+<section class="special-area bg-white section_padding_100" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-lg-left text-lg-left">
-                <div class="copyright">
-                    &copy; Copyright <strong>MOBILEABAD</strong>. All Rights Reserved
-                </div>
-                <div class="credits">
-
-                    Designed by <a href="https://tornadoweb.ir/">MOBILEABAD</a>
+            <div class="col-12">
+                <!-- Section Heading Area -->
+                <div class="section-heading text-center">
+                    <h2>Why Is It Special</h2>
+                    <div class="line-shape"></div>
                 </div>
             </div>
+        </div>
 
+        <div class="row">
+            <!-- Single Special Area -->
+            <div class="col-12 col-md-4">
+                <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-icon">
+                        <i class="ti-mobile" aria-hidden="true"></i>
+                    </div>
+                    <h4>Easy to use</h4>
+                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                </div>
+            </div>
+            <!-- Single Special Area -->
+            <div class="col-12 col-md-4">
+                <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-icon">
+                        <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                    </div>
+                    <h4>Powerful Design</h4>
+                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                </div>
+            </div>
+            <!-- Single Special Area -->
+            <div class="col-12 col-md-4">
+                <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-icon">
+                        <i class="ti-settings" aria-hidden="true"></i>
+                    </div>
+                    <h4>Customizability</h4>
+                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                </div>
+            </div>
         </div>
     </div>
-</footer><!-- #footer -->
+    <!-- Special Description Area -->
+    <div class="special_description_area mt-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="special_description_img">
+                        <img src="img/bg-img/special.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="special_description_content">
+                        <h2>Our Best Propositions for You!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        <div class="app-download-area">
+                            <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                <!-- Google Store Btn -->
+                                <a href="#">
+                                    <i class="fa fa-android"></i>
+                                    <p class="mb-0"><span>available on</span> Google Store</p>
+                                </a>
+                            </div>
+                            <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                <!-- Apple Store Btn -->
+                                <a href="#">
+                                    <i class="fa fa-apple"></i>
+                                    <p class="mb-0"><span>available on</span> Apple Store</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Special Area End ***** -->
 
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Feature-Area -->
+<section class="feature-area section-padding-top" id="features_page">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                <div class="page-title text-center">
+                    <h5 class="title">Features</h5>
+                    <div class="space-10"></div>
+                    <h3>Pwoerful Features As Always</h3>
+                    <div class="space-60"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="box-icon">
+                        <i class="lnr lnr-rocket"></i>
+                    </div>
+                    <h4>Fast &amp; Powerful</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="space-60"></div>
+                <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="box-icon">
+                        <i class="lnr lnr-paperclip"></i>
+                    </div>
+                    <h4>Easily Editable</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="space-60"></div>
+                <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="box-icon">
+                        <i class="lnr lnr-cloud-download"></i>
+                    </div>
+                    <h4>Cloud Storage</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="space-60"></div>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-4">
+                <figure class="mobile-image">
+                    <img src="img/bg-img/feature-image.png" alt="Feature Photo">
+                </figure>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="box-icon">
+                        <i class="lnr lnr-clock"></i>
+                    </div>
+                    <h4>Easy Notifications</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="space-60"></div>
+                <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="box-icon">
+                        <i class="lnr lnr-laptop-phone"></i>
+                    </div>
+                    <h4>Fully Responsive</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="space-60"></div>
+                <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="box-icon">
+                        <i class="lnr lnr-cog"></i>
+                    </div>
+                    <h4>Editable Layout</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="space-60"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- JavaScript Libraries -->
-<script src="lib/jquery/jquery.min.js"></script>
-<script src="lib/jquery/jquery-migrate.min.js"></script>
-<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/superfish/hoverIntent.js"></script>
-<script src="lib/superfish/superfish.min.js"></script>
-<script src="lib/magnific-popup/magnific-popup.min.js"></script>
+<!-- ***** Video Area Start ***** -->
+<div class="video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Video Area Start -->
+                <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                    <div class="video-play-btn">
+                        <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Video Area End ***** -->
 
-<!-- Contact Form JavaScript File -->
-<script src="contactform/contactform.js"></script>
+<!-- ***** Cool Facts Area Start ***** -->
+<section class="cool_facts_area clearfix">
+    <div class="container">
+        <div class="row">
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-area">
+                        <h3><span class="counter">90</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-arrow-down-a"></i>
+                        <p>APP <br> DOWNLOADS</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="counter-area">
+                        <h3><span class="counter">120</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-happy-outline"></i>
+                        <p>Happy <br> Clients</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-area">
+                        <h3><span class="counter">40</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-person"></i>
+                        <p>ACTIVE <br>ACCOUNTS</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="counter-area">
+                        <h3><span class="counter">10</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-ios-star-outline"></i>
+                        <p>TOTAL <br>APP RATES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Cool Facts Area End ***** -->
 
-<!-- Template Main Javascript File -->
-<script src="js/main.js"></script>
+<!-- ***** App Screenshots Area Start ***** -->
+<section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!-- Heading Text  -->
+                <div class="section-heading">
+                    <h2>App Screenshots</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- App Screenshots Slides  -->
+                <div class="app_screenshots_slides owl-carousel">
+                    <div class="single-shot">
+                        <img src="img/scr-img/app-1.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="img/scr-img/app-2.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="img/scr-img/app-3.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="img/scr-img/app-4.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="img/scr-img/app-5.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="img/scr-img/app-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** App Screenshots Area End *****====== -->
 
+<!-- ***** Pricing Plane Area Start *****==== -->
+<section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Heading Text  -->
+                <div class="section-heading text-center">
+                    <h2>Pricing Plan</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-12 col-md-6 col-lg-3">
+                <!-- Package Price  -->
+                <div class="single-price-plan text-center">
+                    <!-- Package Text  -->
+                    <div class="package-plan">
+                        <h5>Starter Plan</h5>
+                        <div class="ca-price d-flex justify-content-center">
+                            <span>$</span>
+                            <h4>29</h4>
+                        </div>
+                    </div>
+                    <div class="package-description">
+                        <p>Up to 10 users monthly</p>
+                        <p>Unlimited updates</p>
+                        <p>Free host &amp; domain</p>
+                        <p>24/7 Support</p>
+                        <p>10 Unique Users</p>
+                    </div>
+                    <!-- Plan Button  -->
+                    <div class="plan-button">
+                        <a href="#">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <!-- Package Price  -->
+                <div class="single-price-plan text-center">
+                    <!-- Package Text  -->
+                    <div class="package-plan">
+                        <h5>Basic Plan</h5>
+                        <div class="ca-price d-flex justify-content-center">
+                            <span>$</span>
+                            <h4>49</h4>
+                        </div>
+                    </div>
+                    <div class="package-description">
+                        <p>Up to 10 users monthly</p>
+                        <p>Unlimited updates</p>
+                        <p>Free host &amp; domain</p>
+                        <p>24/7 Support</p>
+                        <p>10 Unique Users</p>
+                    </div>
+                    <!-- Plan Button  -->
+                    <div class="plan-button">
+                        <a href="#">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <!-- Package Price  -->
+                <div class="single-price-plan active text-center">
+                    <!-- Package Text  -->
+                    <div class="package-plan">
+                        <h5>Advenced Plan</h5>
+                        <div class="ca-price d-flex justify-content-center">
+                            <span>$</span>
+                            <h4>69</h4>
+                        </div>
+                    </div>
+                    <div class="package-description">
+                        <p>Up to 10 users monthly</p>
+                        <p>Unlimited updates</p>
+                        <p>Free host &amp; domain</p>
+                        <p>24/7 Support</p>
+                        <p>10 Unique Users</p>
+                    </div>
+                    <!-- Plan Button  -->
+                    <div class="plan-button">
+                        <a href="#">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <!-- Package Price  -->
+                <div class="single-price-plan text-center">
+                    <!-- Package Text  -->
+                    <div class="package-plan">
+                        <h5>Community Plan</h5>
+                        <div class="ca-price d-flex justify-content-center">
+                            <span>$</span>
+                            <h4>99</h4>
+                        </div>
+                    </div>
+                    <div class="package-description">
+                        <p>Up to 10 users monthly</p>
+                        <p>Unlimited updates</p>
+                        <p>Free host &amp; domain</p>
+                        <p>24/7 Support</p>
+                        <p>10 Unique Users</p>
+                    </div>
+                    <!-- Plan Button  -->
+                    <div class="plan-button">
+                        <a href="#">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Pricing Plane Area End ***** -->
+
+<!-- ***** Client Feedback Area Start ***** -->
+<section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <div class="slider slider-for">
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Aigars Silkalns</h5>
+                            <p>Ceo Colorlib</p>
+                        </div>
+                    </div>
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Jennifer</h5>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Helen</h5>
+                            <p>Marketer</p>
+                        </div>
+                    </div>
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Henry smith</h5>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Client Thumbnail Area -->
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="slider slider-nav">
+                    <div class="client-thumbnail">
+                        <img src="img/bg-img/client-3.jpg" alt="">
+                    </div>
+                    <div class="client-thumbnail">
+                        <img src="img/bg-img/client-2.jpg" alt="">
+                    </div>
+                    <div class="client-thumbnail">
+                        <img src="img/bg-img/client-1.jpg" alt="">
+                    </div>
+                    <div class="client-thumbnail">
+                        <img src="img/bg-img/client-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Client Feedback Area End ***** -->
+
+<!-- ***** CTA Area Start ***** -->
+<section class="our-monthly-membership section_padding_50 clearfix">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <div class="membership-description">
+                    <h2>Join our Monthly Membership</h2>
+                    <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** CTA Area End ***** -->
+
+<!-- ***** Our Team Area Start ***** -->
+<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!-- Heading Text  -->
+                <div class="section-heading">
+                    <h2>Our Team</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="single-team-member">
+                    <div class="member-image">
+                        <img src="img/team-img/team-1.jpg" alt="">
+                        <div class="team-hover-effects">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-text">
+                        <h4>Jackson Nash</h4>
+                        <p>Tax Advice</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="single-team-member">
+                    <div class="member-image">
+                        <img src="img/team-img/team-2.jpg" alt="">
+                        <div class="team-hover-effects">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-text">
+                        <h4>Alex Manning</h4>
+                        <p>CEO-Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="single-team-member">
+                    <div class="member-image">
+                        <img src="img/team-img/team-3.jpg" alt="">
+                        <div class="team-hover-effects">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-text">
+                        <h4>Ollie Schneider</h4>
+                        <p>Business Planner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="single-team-member">
+                    <div class="member-image">
+                        <img src="img/team-img/team-4.jpg" alt="">
+                        <div class="team-hover-effects">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-text">
+                        <h4>Roger West</h4>
+                        <p>Financer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Our Team Area End ***** -->
+
+<!-- ***** Contact Us Area Start ***** -->
+<section class="footer-contact-area section_padding_100 clearfix" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Heading Text  -->
+                <div class="section-heading">
+                    <h2>Get in touch with us!</h2>
+                    <div class="line-shape"></div>
+                </div>
+                <div class="footer-text">
+                    <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                </div>
+                <div class="address-text">
+                    <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                </div>
+                <div class="phone-text">
+                    <p><span>Phone:</span> +11-225-888-888-66</p>
+                </div>
+                <div class="email-text">
+                    <p><span>Email:</span> info.deercreative@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Form Start-->
+                <div class="contact_from">
+                    <form action="#" method="post">
+                        <!-- Message Input Area Start -->
+                        <div class="contact_input_area">
+                            <div class="row">
+                                <!-- Single Input Area Start -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-12">
+                                    <button type="submit" class="btn submit-btn">Send Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message Input Area End -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Contact Us Area End ***** -->
+
+<!-- ***** Footer Area Start ***** -->
+<footer class="footer-social-icon text-center section_padding_70 clearfix">
+    <!-- footer logo -->
+    <div class="footer-text">
+        <h2>Ca.</h2>
+    </div>
+    <!-- social icon-->
+    <div class="footer-social-icon">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    </div>
+    <div class="footer-menu">
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Foooter Text-->
+    <div class="copyright-text">
+        <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+        <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+    </div>
+</footer>
+<!-- ***** Footer Area Start ***** -->
+
+<!-- Jquery-2.2.4 JS -->
+<script src="js/jquery.min.js"></script>
+<!-- Popper js -->
+<script src="js/popper.min.js"></script>
+<!-- Bootstrap-4 Beta JS -->
+<script src="js/bootstrap.min.js"></script>
+<!-- All Plugins JS -->
+<script src="js/plugins.js"></script>
+<!-- Slick Slider Js-->
+<script src="js/slick.min.js"></script>
+<!-- Footer Reveal JS -->
+<script src="js/footer-reveal.min.js"></script>
+<!-- Active JS -->
+<script src="js/active.js"></script>
 </body>
+
 </html>

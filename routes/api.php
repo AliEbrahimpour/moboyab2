@@ -24,6 +24,7 @@ Route::prefix('v1')->namespace('api\v1')->group(function() {
     Route::post('login', 'ApiController@login');
     Route::post('register', 'ApiController@register');
     Route::post('active_code', 'ApiController@activecode');
+    Route::post('forget_password', 'ApiController@fpassword');
 
 
 
@@ -50,6 +51,8 @@ Route::prefix('v1')->namespace('api\v1')->group(function() {
         Route::post('usec', 'ApiController@usec');
         Route::post('a-ticket', 'ApiController@aticket');
         Route::post('robberface', 'ApiController@robberface');
+        Route::post('allactivety', 'ApiController@allactivety');
+
     });
 
 
