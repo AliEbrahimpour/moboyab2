@@ -45,15 +45,20 @@
                     @include('layouts.errors')
                     <fieldset class="forms_fieldset">
                         <div class="forms_field">
-                            <input name="email" type="email" placeholder="ایمیل" class="forms_field-input" required autofocus />
+                            <input name="mobile" type="number" placeholder="شماره موبایل" class="forms_field-input" required autofocus />
                         </div>
                         <div class="forms_field">
                             <input name="password" type="password" placeholder="پسورد" class="forms_field-input" required />
                         </div>
                     </fieldset>
                     <div class="forms_buttons">
-                        <button type="button" class="forms_buttons-forgot">فراموشی رمز</button>
+                        <button href="login/forget_password" type="button" class="forms_buttons-forgot"></button>
                         <input type="submit" value="ورود" class="forms_buttons-action">
+                        @if (Route::has('password.request'))
+                            <a class="btn btn-link" href="{{ route('password.request') }}">
+                                {{ __('فراموشی رمز') }}
+                            </a>
+                        @endif
                     </div>
                 </form>
             </div>
@@ -67,7 +72,7 @@
                             <input name="name"  type="text" placeholder="نام" class="forms_field-input" />
                         </div>
                         <div class="forms_field">
-                            <input name="email" type="email" placeholder="ایمیل" class="forms_field-input" required />
+                            <input name="mobile" type="mobile" placeholder="شماره موبایل" class="forms_field-input" required />
                         </div>
                         <div class="forms_field">
                             <input name="password" type="password" placeholder="پسورد" class="forms_field-input" required />

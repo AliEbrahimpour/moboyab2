@@ -33,7 +33,7 @@
     <div class="container-fluid">
         <div style="direction:rtl" class="row align-items-center">
             <!-- Menu Area Start -->
-            <div class="col-12 col-lg-10">
+            <div class="col-12 col-lg-9">
                 <div  class="menu_area">
                     <nav  class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
@@ -59,9 +59,10 @@
                 </div>
             </div>
             <!-- Signup btn -->
-            <div class="col-12 col-lg-2">
-                <div class="sing-up-button d-none d-lg-block">
-                    <a href="#">عضویت رایگان</a>
+            <div class="col-12 col-lg-3">
+                <div  class="sing-up-button d-none d-lg-block">
+                    <a style="float: left"   href="{{ route('login') }}">ورود</a>
+                    <a href="{{ route('register') }}">عضویت رایگان</a>
                 </div>
             </div>
         </div>

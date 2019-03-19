@@ -132,7 +132,9 @@ class ApiController extends Controller
         return new BlogCollection(Blog::paginate(5)) ;
     }
 
-    public function blog(Blog $blog){
+    public function blog(Request $request){
+
+        $blog = Blog::find($request->id);
         return new BlogResource($blog);
     }
 
